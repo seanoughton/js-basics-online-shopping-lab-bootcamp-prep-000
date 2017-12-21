@@ -24,7 +24,7 @@ function viewCart() {
   //loop over items in cart
   var i = 0
   while (i<cart.length){
-    
+    i += 1
   }
   //print out contents
   //`In your cart, you have ...
