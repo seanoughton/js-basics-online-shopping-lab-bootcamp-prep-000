@@ -23,13 +23,14 @@ function addToCart(item) {
 function viewCart() {
   if (cart.length === 0) {
     console.log("Your shopping cart is empty.")
-  } 
-    
-  var i = 0
-  while (i<cart.length){
-    
-    i += 1
+  } else {
+      var i = 0
+      while (i<cart.length){
+      i += 1
   }
+  }
+    
+
   //print out contents
   //`In your cart, you have ...
   // itemName at itemPrice, and 
