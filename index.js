@@ -40,7 +40,7 @@ function viewCart() {
       itemString = itemString + `${itemName} at $${itemPrice}`
       i += 1
       if (i<cart.length){
-        itemString =  itemString + ', and '
+        itemString =  itemString + ' and '
       }
     }
     returnString = returnString + itemString + `.`
@@ -54,7 +54,7 @@ function viewCart() {
       itemString = itemString + `${itemName} at $${itemPrice}`
       i += 1
       if (i<cart.length){
-        itemString =  itemString + ' and '
+        itemString =  itemString + ', and '
       }
     }
     returnString = returnString + itemString + `.`
