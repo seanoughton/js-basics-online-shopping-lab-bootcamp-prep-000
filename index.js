@@ -25,6 +25,7 @@ function viewCart() {
   //print out contents
   //`In your cart, you have ...
   // itemName at itemPrice, and 
+  // if cart is empty, console.log("Your shopping cart is empty")
   
 }
 
