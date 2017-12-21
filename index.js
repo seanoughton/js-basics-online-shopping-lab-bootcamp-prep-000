@@ -46,7 +46,7 @@ function viewCart() {
     returnString = returnString + itemString + `.`
     console.log(returnString)
   }
-  else if(cart.length > 3){
+  else{
     i = 0
     while (i<cart.length){
       itemName = Object.keys(cart[i])
