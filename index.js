@@ -46,6 +46,9 @@ function viewCart() {
     returnString = returnString + itemString + `.`
     console.log(returnString)
   }
+  else if(cart.length > 3){
+    
+  }
 
   
 }
