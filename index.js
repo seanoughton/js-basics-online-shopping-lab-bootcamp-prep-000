@@ -21,7 +21,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var newString = `In your cart, you have `
+  var returnString = `In your cart, you have `
   var itemSring =``
   if (cart.length === 0) {
     console.log("Your shopping cart is empty.")
@@ -29,7 +29,7 @@ function viewCart() {
   else if(cart.length === 1) {
     var itemName = Object.keys(cart[0])
     var itemPrice = Object.values(cart[0])
-    newString = newString + `${itemName} at $${itemPrice}.`
+    returnString = returnString + `${itemName} at $${itemPrice}.`
     console.log(newString)
   }
   else if(cart.length === 2) {
