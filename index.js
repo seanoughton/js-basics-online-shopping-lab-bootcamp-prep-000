@@ -27,7 +27,7 @@ function viewCart() {
   } else {
       var i = 0
       while (i<cart.length){
-        newString
+        newString = newString + `${itemName} at ${itemPrice}`
           // itemName at itemPrice, and 
           // terminate sentence with a period
       i += 1
