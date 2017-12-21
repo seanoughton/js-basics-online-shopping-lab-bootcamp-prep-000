@@ -22,7 +22,7 @@ function addToCart(item) {
 
 function viewCart() {
   var returnString = `In your cart, you have `
-  var itemSring =``
+  var itemString =``
   if (cart.length === 0) {
     console.log("Your shopping cart is empty.")
   } 
