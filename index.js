@@ -35,7 +35,7 @@ function viewCart() {
         newString = newString + `${itemName} at ${itemPrice} and `
       i += 1
       }
-    
+    newString = newString + `.`
     return newString
   }
   
