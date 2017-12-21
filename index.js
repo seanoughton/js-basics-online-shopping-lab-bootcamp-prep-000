@@ -21,9 +21,13 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  //loop over items in cart
+  if (cart.length === 0) {
+    
+  } 
+    
   var i = 0
   while (i<cart.length){
+    
     i += 1
   }
   //print out contents
