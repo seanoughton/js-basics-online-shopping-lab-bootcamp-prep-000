@@ -32,6 +32,7 @@ function viewCart() {
       i += 1
       }
   }
+  console.log(newString)
   
 }
 
