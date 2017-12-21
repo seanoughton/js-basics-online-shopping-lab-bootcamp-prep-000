@@ -28,16 +28,15 @@ function viewCart() {
   else if(cart.length === 1) {
     newString = newString + `${Object.keys(cart[0])}` + ` at ` + `${Object.values(cart[0])}` + `.`
     console.log(newString)
-    return
   }
-  else  if(cart.length === 2){
+  else if(cart.length === 2){
     var i = 0
       while (i<cart.length){
 
       i += 1
       }
     newString = newString + `.`
-    return newString
+    
   }
   
   else {
@@ -47,8 +46,7 @@ function viewCart() {
       i += 1
       }
   }
-  newString = newString + `.`
-  console.log(newString)
+
   
 }
 
