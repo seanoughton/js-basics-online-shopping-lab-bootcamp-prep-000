@@ -24,7 +24,12 @@ function viewCart() {
   newString = `In your cart, you have`
   if (cart.length === 0) {
     console.log("Your shopping cart is empty.")
-  } else {
+  } 
+  else if {
+    
+  }
+  
+  else {
       var i = 0
       while (i<cart.length){
         newString = newString + `${itemName} at ${itemPrice}`
