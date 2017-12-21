@@ -32,7 +32,8 @@ function viewCart() {
     console.log(newString)
   }
   else if(cart.length === 2) {
-    
+    newString = newString + 
+    console.log(newString)
   }
 
   
