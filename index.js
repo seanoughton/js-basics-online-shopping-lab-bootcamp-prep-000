@@ -23,6 +23,8 @@ function addToCart(item) {
 function viewCart() {
   //loop over items in cart
   //print out contents
+  //`In your cart, you have ...
+  
 }
 
 function total() {
