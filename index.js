@@ -22,6 +22,7 @@ function addToCart(item) {
 
 function viewCart() {
   var newString = `In your cart, you have `
+  var itemSring =``
   if (cart.length === 0) {
     console.log("Your shopping cart is empty.")
   } 
@@ -36,8 +37,9 @@ function viewCart() {
     while (i<cart.length){
       itemName = Object.keys(cart[i])
       itemPrice = Object.values(cart[i])
-      newString = newString + `${itemName} at $${itemPrice}`
+      `${itemName} at $${itemPrice}`
     }
+    newString = itemString
     console.log(newString + `.`)
   }
 
