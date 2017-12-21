@@ -22,7 +22,8 @@ function addToCart(item) {
 
 function viewCart() {
   //loop over items in cart
-  while (condition){
+  var i = 0
+  while (i<cart.length){
     
   }
   //print out contents
