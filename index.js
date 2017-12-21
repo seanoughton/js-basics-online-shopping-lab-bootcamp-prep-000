@@ -47,6 +47,18 @@ function viewCart() {
     console.log(returnString)
   }
   else if(cart.length > 3){
+    i = 0
+        while (i<cart.length){
+      itemName = Object.keys(cart[i])
+      itemPrice = Object.values(cart[i])
+      itemString = itemString + `${itemName} at $${itemPrice}`
+      i += 1
+      if (i<cart.length){
+        itemString =  itemString + ' and '
+      }
+    }
+    returnString = returnString + itemString + `.`
+    console.log(returnString)
     
   }
 
