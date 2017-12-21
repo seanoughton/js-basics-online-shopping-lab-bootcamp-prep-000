@@ -47,6 +47,7 @@ function viewCart() {
     console.log(returnString)
   }
   else{
+    itemString = ``
     i = 0
     while (i<cart.length){
       itemName = Object.keys(cart[i])
