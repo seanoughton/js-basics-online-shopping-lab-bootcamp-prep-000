@@ -55,7 +55,9 @@ function viewCart() {
       
       itemString = itemString + `${itemName} at $${itemPrice}, `
       if (i === cart.length-1){
-        itemString =  itemString + ' and '
+        itemString =  itemString + ` and ${itemName} at $${itemPrice}.`
+      } else {
+        
       }
       i += 1
 
