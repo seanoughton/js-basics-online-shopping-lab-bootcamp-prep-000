@@ -32,7 +32,7 @@ function viewCart() {
   else  if(cart.length === 2){
     var i = 0
       while (i<cart.length){
-        newString = newString + `${itemName} at ${itemPrice}`
+        newString = newString + `${itemName} at ${itemPrice} and `
       i += 1
       }
     
