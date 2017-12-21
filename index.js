@@ -53,10 +53,11 @@ function viewCart() {
       itemName = Object.keys(cart[i])
       itemPrice = Object.values(cart[i])
       itemString = itemString + `${itemName} at $${itemPrice}, `
-      i += 1
       if (i === cart.length-1){
         itemString =  itemString + ' and '
       }
+      i += 1
+
     }
     returnString = returnString + itemString + `.`
     console.log(returnString)
