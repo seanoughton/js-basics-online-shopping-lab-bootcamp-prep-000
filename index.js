@@ -22,6 +22,9 @@ function addToCart(item) {
 
 function viewCart() {
   //loop over items in cart
+  while (){
+    
+  }
   //print out contents
   //`In your cart, you have ...
   // itemName at itemPrice, and 
