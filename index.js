@@ -48,7 +48,7 @@ function viewCart() {
   }
   else if(cart.length > 3){
     i = 0
-        while (i<cart.length){
+    while (i<cart.length){
       itemName = Object.keys(cart[i])
       itemPrice = Object.values(cart[i])
       itemString = itemString + `${itemName} at $${itemPrice}`
