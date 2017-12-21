@@ -33,7 +33,7 @@ function viewCart() {
     console.log(returnString)
   }
   else if(cart.length === 2) {
-    var i = 100
+    var i = 0
     while (i<cart.length){
       itemName = Object.keys(cart[i])
       itemPrice = Object.values(cart[i])
