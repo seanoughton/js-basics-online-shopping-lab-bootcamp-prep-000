@@ -33,6 +33,7 @@ function viewCart() {
       i += 1
       }
   }
+  newString = newString + `.`
   console.log(newString)
   
 }
