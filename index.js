@@ -22,7 +22,7 @@ function addToCart(item) {
 
 function viewCart() {
   if (cart.length === 0) {
-    
+    console.log("Your shopping cart is empty.")
   } 
     
   var i = 0
@@ -34,7 +34,6 @@ function viewCart() {
   //`In your cart, you have ...
   // itemName at itemPrice, and 
   // terminate sentence with a period
-  // if cart is empty, console.log("Your shopping cart is empty")
   
 }
 
