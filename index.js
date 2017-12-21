@@ -15,7 +15,7 @@ function addToCart(item) {
   itemPrice = Math.floor(itemPrice)
   var cartItem = new Object({ [itemName]: itemPrice })
   cart.push(cartItem)
-  console.log(`${itemName} has been added to your cart.)
+  console.log(`${itemName} has been added to your cart.`)
   return cart
 
 }
