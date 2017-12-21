@@ -26,7 +26,7 @@ function viewCart() {
   } else {
       var i = 0
       while (i<cart.length){
-          console.log(`In your cart, you have`)
+          console.log(`In your cart, you have ${itemPrice} at `)
           // itemName at itemPrice, and 
           // terminate sentence with a period
       i += 1
