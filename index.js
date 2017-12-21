@@ -26,15 +26,13 @@ function viewCart() {
   } else {
       var i = 0
       while (i<cart.length){
+          //print out contents
+          //`In your cart, you have ...
+          // itemName at itemPrice, and 
+          // terminate sentence with a period
       i += 1
+      }
   }
-  }
-    
-
-  //print out contents
-  //`In your cart, you have ...
-  // itemName at itemPrice, and 
-  // terminate sentence with a period
   
 }
 
