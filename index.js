@@ -39,8 +39,8 @@ function viewCart() {
       itemPrice = Object.values(cart[i])
       `${itemName} at $${itemPrice}`
     }
-    newString = newString + itemString
-    console.log(newString + `.`)
+    newString = newString + itemString + `.`
+    console.log(newString)
   }
 
   
