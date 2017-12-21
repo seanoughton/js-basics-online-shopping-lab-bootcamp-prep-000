@@ -31,6 +31,9 @@ function viewCart() {
     newString = newString + `${itemName} at $${itemPrice}.`
     console.log(newString)
   }
+  else if(cart.length === 2) {
+    
+  }
 
   
 }
