@@ -22,6 +22,7 @@ function addToCart(item) {
 
 function viewCart() {
   //loop over items in cart
+  //print out contents
 }
 
 function total() {
