@@ -10,7 +10,8 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- newObject = {name:}
+ var cartItem = new Object({ breakfast: 'oatmeal' })
+
 }
 
 function viewCart() {
