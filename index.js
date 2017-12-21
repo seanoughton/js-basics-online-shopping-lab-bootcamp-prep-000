@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- var cartItem = new Object({ breakfast: 'oatmeal' })
+ var cartItem = new Object({ item: 'oatmeal' })
 
 }
 
