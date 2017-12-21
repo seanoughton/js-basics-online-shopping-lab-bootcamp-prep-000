@@ -29,6 +29,9 @@ function viewCart() {
     newString = newString + `${itemName} at ${itemPrice}.`
     return newString
   }
+  else  if(cart.length === 2){
+    
+  }
   
   else {
       var i = 0
