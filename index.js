@@ -32,7 +32,7 @@ function viewCart() {
   else  if(cart.length === 2){
     var i = 0
       while (i<cart.length){
-        cart[i].
+        cart[i].itemName
         arr[0].key1
       i += 1
       }
