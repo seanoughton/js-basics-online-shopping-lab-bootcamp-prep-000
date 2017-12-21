@@ -33,6 +33,7 @@ function viewCart() {
     var i = 0
       while (i<cart.length){
         cart[i]
+        (arr[0].key1
       i += 1
       }
     newString = newString + `.`
