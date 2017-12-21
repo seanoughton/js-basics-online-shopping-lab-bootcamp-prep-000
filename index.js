@@ -30,7 +30,7 @@ function viewCart() {
     return newString
   }
   else  if(cart.length === 2){
-    newString = newString + `${itemName} at ${itemPrice}.`
+    `
     return newString
   }
   
