@@ -26,7 +26,9 @@ function viewCart() {
     console.log("Your shopping cart is empty.")
   } 
   else if(cart.length === 1) {
-    newString = newString + `${Object.keys(cart[0])}` + ` at ` + `${Object.values(cart[0])}` + `.`
+    var itemName = Object.keys(cart[0])
+    var itemPrice = Object.values(cart[0]
+    newString = newString + `${itemName}` + ` at ` + `${itemPrice}.`
     console.log(newString)
   }
 
