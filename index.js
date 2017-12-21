@@ -28,7 +28,7 @@ function viewCart() {
   else if(cart.length === 1) {
     var itemName = Object.keys(cart[0])
     var itemPrice = Object.values(cart[0])
-    newString = newString + `${itemName} at $${itemPrice}`
+    newString = newString + `${itemName} at $${itemPrice}.`
     console.log(newString)
   }
 
