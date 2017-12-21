@@ -21,7 +21,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  //loop over items in cart
 }
 
 function total() {
