@@ -24,6 +24,7 @@ function viewCart() {
   //loop over items in cart
   //print out contents
   //`In your cart, you have ...
+  // itemName at itemPrice
   
 }
 
