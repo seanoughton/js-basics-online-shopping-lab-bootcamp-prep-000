@@ -21,12 +21,13 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  newString = `In your cart, you have`
+  newString = `In your cart, you have `
   if (cart.length === 0) {
     console.log("Your shopping cart is empty.")
   } 
   else if(cart.length === 1) {
-    
+    newString = newString + `${itemName} at ${itemPrice}`
+    return newString
   }
   
   else {
