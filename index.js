@@ -40,7 +40,7 @@ function viewCart() {
   }
   
   else {
-      var i = 0
+      i = 0
       while (i<cart.length){
         newString = newString + `${itemName} at ${itemPrice}`
       i += 1
